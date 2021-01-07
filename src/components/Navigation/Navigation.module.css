@@ -1,0 +1,11 @@
+.link {
+  display: inline-block;
+  color: black;
+  padding: 10px;
+}
+
+.linkActive {
+  display: inline-block;
+  color: brown;
+  padding: 10px;
+}

@@ -29,13 +29,13 @@ export function gethMovieDetailsById(id) {
     .then(res => res.data);
 }
 
-export function getCastsByMovieId(id) {
+export function getCastByMovieId(id, page = 1) {
   return axios
-    .get(`/movie/${id}/credits?api_key=${API_KEY}&language=en-US`)
+    .get(`/movie/${id}/credits?api_key=${API_KEY}&language=en-US&page=${page}`)
     .then(res => res.data);
 }
 
-export function getUserReviewsAboutFilmById(id, page = 1) {
+export function getReviewsById(id, page = 1) {
   return axios
     .get(`/movie/${id}/reviews?api_key=${API_KEY}&language=en-US&page=${page}`)
     .then(res => res.data);
