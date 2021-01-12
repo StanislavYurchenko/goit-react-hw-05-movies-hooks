@@ -30,7 +30,6 @@ function DetailsMovieView() {
   }, [movieId]);
 
   const onGoBack = () => {
-    console.log(from);
     history.push(from);
   };
 
