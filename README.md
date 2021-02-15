@@ -1,8 +1,8 @@
-# [Phone book](https://goit-react-hw-05-movies-hooks.netlify.app/)
+# [Movies](https://goit-react-hw-05-movies-hooks.netlify.app/)
 
 ## Project goals:
 
-Learning React, React-Routing, CRUD..
+Learning React, React-Routing, React-Hooks, CRUD..
 
 ### User instructions:
 
